@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Project Starter</title>
+  <title>Custom Grid</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Don't change the paths of the following two lines - They are produced by webpack-->
@@ -12,9 +12,94 @@
 </head>
 
 <body>
-  
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
+  <a href="layout.html">Layout</a>
+  <h1>Fixed grid no gutters</h1>
+    <div class="grid">
+      <div class="row">
+        <div class="twelve columns"><p>twelve</p></div>
+      </div>
+      <div class="row">
+        <div class="six columns"><p>six</p></div>
+        <div class="six columns"><p>six</p></div>
+      </div>
+      <div class="row">
+        <div class="four columns"><p>four</p></div>
+        <div class="four columns"><p>four</p></div>
+        <div class="four columns"><p>four</p></div>
+      </div>
+      <div class="row">
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+      </div>
+    </div>
+
+    <h1>Fluid grid no gutters</h1>
+    <div class="grid fluid">
+      <div class="row">
+        <div class="twelve columns"><p>twelve</p></div>
+      </div>
+      <div class="row">
+        <div class="six columns"><p>six</p></div>
+        <div class="six columns"><p>six</p></div>
+      </div>
+      <div class="row">
+        <div class="four columns"><p>four</p></div>
+        <div class="four columns"><p>four</p></div>
+        <div class="four columns"><p>four</p></div>
+      </div>
+      <div class="row">
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+      </div>
+    </div>
+
+    <h1>Fixed grid with gutters</h1>
+    <div class="grid with-gutters">
+      <div class="row">
+        <div class="twelve columns"><p>twelve</p></div>
+      </div>
+      <div class="row">
+        <div class="six columns"><p>six</p></div>
+        <div class="six columns"><p>six</p></div>
+      </div>
+      <div class="row">
+        <div class="four columns"><p>four</p></div>
+        <div class="four columns"><p>four</p></div>
+        <div class="four columns"><p>four</p></div>
+      </div>
+      <div class="row">
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+      </div>
+    </div>
+
+    <h1>Fluid grid with gutters</h1>
+    <div class="grid fluid with-gutters">
+      <div class="row">
+        <div class="twelve columns"><p>twelve</p></div>
+      </div>
+      <div class="row">
+        <div class="six columns"><p>six</p></div>
+        <div class="six columns"><p>six</p></div>
+      </div>
+      <div class="row">
+        <div class="four columns"><p>four</p></div>
+        <div class="four columns"><p>four</p></div>
+        <div class="four columns"><p>four</p></div>
+      </div>
+      <div class="row">
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+        <div class="three columns"><p>three</p></div>
+      </div>
+    </div>
 
 </body>
 </html>
